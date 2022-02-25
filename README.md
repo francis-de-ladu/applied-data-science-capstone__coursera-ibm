@@ -1,4 +1,4 @@
-# SpaceX Launch Data nalysis with Python, Plotly and Dash
+# SpaceX Launch Data Analysis with Dash/Python
 
 As part of the Applied Data Science Capstone course on Coursera by IBM.
 
