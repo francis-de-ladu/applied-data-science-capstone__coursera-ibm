@@ -13,7 +13,7 @@ dataset_fn = "spacex_launch_dash.csv"
 if not os.path.isfile(dataset_fn):
     dataset_url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"
     response = requests.get(dataset_url, allow_redirects=True)
-    with open(dataset_fn, 'w+') as file:
+    with open(dataset_fn, 'wb+') as file:
         file.write(response.content)
 
 
